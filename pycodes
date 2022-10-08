@@ -1,0 +1,11 @@
+num=0
+def inp(num):
+ num=int(input("enter a number a number:"))
+ if num%2==0:
+     print("input number is even")
+ elif num%2!=0:
+     print("input number is odd")
+ return print(inp(num))
+
+inp(num)
+#python return input code to check whether entered num is even or odd
